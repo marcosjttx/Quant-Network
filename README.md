@@ -1,3 +1,3 @@
 # Quant Network
  
-<img src="src/media/sample.png" height="400">
+<img src="src/media/sample.PNG" height="400">
