@@ -1,0 +1,50 @@
+.gilbert-container{
+width: 100%;
+background-color: rgb(8, 6, 5);
+color: gray;
+display: flex;
+margin-bottom: 70vh;
+}
+
+.gilbert-text{
+    display: flex;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+
+font-family: 'Rubik',sans-serif;
+padding: 0 50px 0 50px;
+font-size: 25px;
+    width: 100% ;
+}
+.gilbert-img{
+  
+ 
+    
+        width: 100% ;
+    }
+
+    @media only screen and (max-width: 960px) {
+        .gilbert-container {
+          flex-direction: column;
+          padding: 0;
+      
+         
+        }
+      
+        .gilbert-text {
+          width: 90%;
+          margin: 0 auto;
+          padding: 40px 20px 50px 20px;
+          text-align: center;
+        }
+      
+   
+    
+        
+      }
+    
+    
+    
+    
+
