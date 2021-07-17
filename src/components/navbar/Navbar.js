@@ -46,8 +46,9 @@ const Navbar = ({ isScrolling }) => {
         {click ? (
           <CloseMenu className="menu-icon" />
         ) : (
-          <MenuIcon className="menu-icon" />
-        )}
+          <MenuIcon className={`menu-icon ${isScrolling > 20 ? "scrolling2" : null}`
+        }
+        />   )} 
    </div>
 
 
